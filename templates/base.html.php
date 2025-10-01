@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title><?= $title ?? 'Page sans titre' ?> | MNS Buggy App</title>
+        <title><?= htmlspecialchars( $title) ?? 'Page sans titre' ?> | MNS Buggy App</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta

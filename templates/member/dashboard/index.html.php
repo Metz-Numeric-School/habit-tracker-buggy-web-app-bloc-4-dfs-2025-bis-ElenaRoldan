@@ -51,7 +51,7 @@
                                         <p class="card-text"><?= $habit->getDescription() ?></p>
 
                                         <form action="/habit/toggle" method="post" class="mb-2">
-                                            <input type="hidden" name="habit_id" value="<?= $habit->getId() ?>">
+                                            <input type="hidden" name="habit_id" value="<?= htmlspecialchars( $habit->getId()) ?>">
                                             <button type="submit"
                                                 class="btn <?= $habit->isCompletedToday() ? 'btn-success' : 'btn-outline-success' ?> btn-sm">
                                                 <?= $habit->isCompletedToday() ? 'Fait ✅' : 'Marquer comme fait' ?>

@@ -5,7 +5,7 @@ Suite à un audit effectué en amont, voici les failles et les bugs qui ont ét�
 ## FAILLES
 
 * Des utilsateurs non admin ont des accès à l'interface de gestion des utilisateurs --> OK
-* Les mots de passes ne sont pas chiffrée en base de données...
+* Les mots de passes ne sont pas chiffrée en base de données... --> OK ?
 * Des injections de type XSS ont été détéctées sur certains formulaires
 * On nous a signalé des injections SQL lors de la création d'une nouvelles habitudes
   * exemple dans le champs "name" : foo', 'INJECTED-DESC', NOW()); --

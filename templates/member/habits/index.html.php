@@ -30,7 +30,7 @@
                                      style="width: <?= $habit->getProgress(7) ?>%;" 
                                      aria-valuenow="<?= $habit->getProgress(7) ?>" 
                                      aria-valuemin="0" aria-valuemax="100">
-                                    <?= $habit->getProgress(7) ?>%
+                                    <?= htmlspecialchars( $habit->getProgress(7)) ?>%
                                 </div>
                             </div>
 
