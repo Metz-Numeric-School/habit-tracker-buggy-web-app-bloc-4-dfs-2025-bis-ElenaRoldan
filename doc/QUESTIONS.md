@@ -9,4 +9,4 @@ Répondez ici aux questions théoriques en détaillant un maxium vos réponses :
    Après avoir fait ces étapes, on mets nos choix dans le panier et on peut passer à l'achat.
 
 2. Comment faire pour qu'un nom de domaine pointe vers une adresse IP spécifique ?
-4. Comment mettre en place un certificat SSL ?
+3. Comment mettre en place un certificat SSL ?
