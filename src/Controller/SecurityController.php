@@ -31,6 +31,7 @@ class SecurityController extends AbstractController
             if($user) {
                 // On vérifie le mot de passe
                 if($password == $user->getPassword()) {
+                    $hashed_password = password_hash($password);
     
                     $_SESSION['user'] = [
                         'id' => $user->getId(),
