@@ -9,4 +9,6 @@ Répondez ici aux questions théoriques en détaillant un maxium vos réponses :
    Après avoir fait ces étapes, on mets nos choix dans le panier et on peut passer à l'achat.
 
 2. Comment faire pour qu'un nom de domaine pointe vers une adresse IP spécifique ?
+
+   Pour pouvoir pointer vers une adresse IP il faudrait   utiliser un enregistrement de type AAAA . Ce type d'enregistrement ,est la méthode la plus commune pour rediriger un nom de domaine vers l'adresse IP du serveur Web sur lequel est hébergé le site
 3. Comment mettre en place un certificat SSL ?
