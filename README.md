@@ -1,5 +1,18 @@
 # My Habits Tracker (A Buggy Web Application)
 
+Adresse IP:172.17.4.21
+
+Identifiant SSH : root
+
+Mot de passe SSH : Ckh5x6Y5
+
+AAPANEL
+
+aaPanel Internet Address: https://90.80.241.65:16006/d82a5580
+aaPanel Internal Address: https://172.17.4.21:16006/d82a5580
+username: spqcyxsy
+password: 0e38d57e
+
 # Présentation du projet
 
 MyHabitTracker est une application web conçu sur une architecture MVC et qui s'inspire de l'arborsence et du fonctionnement du framework Symfony.
@@ -51,16 +64,3 @@ Le code doit impérativement être push sur le repo GitHub Classroom qui vous a 
 **!!! ATTENTION : la partie 2 ne sera pas évaluée si ce n'est pas le cas !!!**
 
 # BONNE CHANCE
-
-Adresse IP:172.17.4.21
-
-Identifiant SSH : root
-
-Mot de passe SSH : Ckh5x6Y5
-
-AAPANEL
-
-aaPanel Internet Address: https://90.80.241.65:16006/d82a5580
-aaPanel Internal Address: https://172.17.4.21:16006/d82a5580
-username: spqcyxsy
-password: 0e38d57e
